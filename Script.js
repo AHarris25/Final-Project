@@ -1,40 +1,26 @@
 /**
  * Created by TonyHarris on 10/27/16.
  */
-const yes = 0;
-const no = 1;
-const maybe = 2;
-const askAgain = 3;
+var response = [
+    'Maybe.','Not in your wildest dreams.',
+    'There is a good chance.', 'Never!', 'Hell, yes.', 'Hell no.',
+    'The future is uncertain.', 'Possibly.','Yes!'];
 
-function RandomInt(low,high){
-    return Math.floor(Math.random()*(high-low+1)) + low;
+function Random(response){
+    return response[Math.floor(Math.random()*response.length)];
 }
 
 function $(element){
-
 return document.getElementById(element);
 }
 
 function ClearForm(){
     $('txtUserData').value='';
     $('div8BallImage').src='';
-    $('div8BallResponse').value='';
+    $('div8BallResponse').innerHTML='';
 }
 
 function EightBall(){
-    ClearForm();
-
-    var Choice;
-    if (RandomInt = yes){
-    $('div8BallResponse').value = 'Yes'
-    }
-    else if (RandomInt = no) {
-        $('div8BallResponse').value = 'No'
-    }
-    else if (RandomInt = maybe) {
-        $('div8BallResponse').value = 'Maybe'
-    }
-    else if (RandomInt = askAgain) {
-        $('div8BallResponse').value = 'Ask Again'
-    }
+    var Answer = Random(response);
+    $('div8BallResponse').innerHTML = Answer;
 }
