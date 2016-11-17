@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f17cffe7-aea0-46b1-bd8c-f1d9e4362166" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Script.js" afterPath="$PROJECT_DIR$/Script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style 1.html" afterPath="$PROJECT_DIR$/Style 1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style 2.html" afterPath="$PROJECT_DIR$/Style 2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style 3.html" afterPath="$PROJECT_DIR$/Style 3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StyleSheet2.css" afterPath="$PROJECT_DIR$/StyleSheet2.css" />
-    </list>
+    <list default="true" id="f17cffe7-aea0-46b1-bd8c-f1d9e4362166" name="Default" comment="" />
     <ignored path="Final Project.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -174,24 +168,7 @@
     <panes>
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Final-Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Final-Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Final-Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scope" />
     </panes>
@@ -285,15 +262,15 @@
       <workItem from="1477612413339" duration="29000" />
       <workItem from="1477612518757" duration="1139000" />
       <workItem from="1477789153492" duration="3346000" />
-      <workItem from="1479088661672" duration="4029000" />
+      <workItem from="1479088661672" duration="4213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11057000" />
+    <option name="totallyTimeSpent" value="11241000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="188" y="23" width="1274" height="821" extended-state="1" />
+    <frame x="188" y="23" width="1274" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.063579276" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
