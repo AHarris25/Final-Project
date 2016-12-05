@@ -1,15 +1,11 @@
 /**
  * Created by TonyHarris on 10/27/16.
  */
-var dreams = 'images/dreams.png';
-
-var answers = ['Maybe.','Not in your wildest dreams.',
-    'There is a good chance.', 'Never!', 'Hell, yes.', 'Hell no.',
-    'The future is uncertain.', 'Possibly.','Yes!'];
+var answers = ['Maybe.','Not in your wildest dreams.','There is a good chance.',
+    'Never!','Hell, yes.','Hell no.','The future is uncertain.','Possibly.','Yes!'];
 
 function Random(){
-    var answer = answers[Math.floor(Math.random() * answers.length)];
-    return answer;
+    return answers[Math.floor(Math.random() * answers.length)];
 }
 function $(element){
     return document.getElementById(element);
@@ -17,22 +13,18 @@ function $(element){
 
 function ClearForm(){
     $('txtUserData').value='';
-    $('div8BallImage').src='';
+    $('div8BallImage').innerHTML='';
     $('div8BallResponse').innerHTML='';
 }
 
 function EightBall(){
-    if ($("txtUserData") == "" ){
-        $("divError").innerHTML = "* No Question Entered";
-        return;
-    }
     var Answer = Random(answers);
-    var Image = '';
+    var Source = "<img src= ";
     if (Answer == 'Maybe'){
         Image = 'images/Maybe.png';
     }
     else if (Answer == 'Not in your wildest dreams.'){
-        Image = dreams  ;
+        Image = "images/dreams.png"  ;
     }
     else if (Answer == 'There is a good chance.'){
         Image = 'images/Good chance.png';
@@ -56,5 +48,5 @@ function EightBall(){
         Image = 'images/Yes.png';
     }
     $('div8BallResponse').innerHTML = Answer;
-    $('div8BallImage').src = Image;
+    $('div8BallImage').innerHTML = Source + Image + "/>";
 }
