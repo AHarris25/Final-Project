@@ -20,26 +20,26 @@ function ClearForm(){
 function EightBall(){
     var Answer = Random(answers);
     var Source = "<img src= ";
-    if (Answer == 'Maybe'){
+    if (Answer == 'Maybe.'){
         Image = 'images/Maybe.png';
     }
     else if (Answer == 'Not in your wildest dreams.'){
         Image = "images/dreams.png"  ;
     }
     else if (Answer == 'There is a good chance.'){
-        Image = 'images/Good chance.png';
+        Image = 'images/chance.png';
     }
     else if (Answer == 'Never!'){
         Image = 'images/Never.png';
     }
     else if (Answer == 'Hell, yes.'){
-        Image = 'images/Hell yes.png';
+        Image = 'images/Hell_yes.png';
     }
     else if (Answer == 'Hell no.'){
-        Image = 'images/Hell no.png';
+        Image = 'images/Hell_no.png';
     }
     else if (Answer == 'The future is uncertain.'){
-        Image = 'images/the future is uncertain.png';
+        Image = 'images/future.png';
     }
     else if (Answer == 'Possibly.'){
         Image = 'images/possibly.png';
@@ -49,4 +49,8 @@ function EightBall(){
     }
     $('div8BallResponse').innerHTML = Answer;
     $('div8BallImage').innerHTML = Source + Image + "/>";
+}
+
+function Amazon(){
+    window.location.href = "https://www.amazon.com/Mattel-30188-Magic-8-Ball/dp/B00001ZWV7/ref=sr_1_1?ie=UTF8&qid=1480969435&sr=8-1&keywords=8+ball";
 }
