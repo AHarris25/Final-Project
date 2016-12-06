@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f17cffe7-aea0-46b1-bd8c-f1d9e4362166" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Style 2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Style 3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Good chance.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Hell no.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Hell yes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/the future is uncertain.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Style 1.html" afterPath="$PROJECT_DIR$/8Ball.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8Ball.html" afterPath="$PROJECT_DIR$/8Ball.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.html" afterPath="$PROJECT_DIR$/Main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Script.js" afterPath="$PROJECT_DIR$/Script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StyleSheet.css" afterPath="$PROJECT_DIR$/StyleSheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StyleSheet2.css" afterPath="$PROJECT_DIR$/StyleSheet2.css" />
     </list>
     <ignored path="Final Project.iws" />
@@ -38,8 +32,8 @@
       <file leaf-file-name="Script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+            <state relative-caret-position="15">
+              <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
               </folding>
@@ -51,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/Main.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -60,8 +54,8 @@
       <file leaf-file-name="8Ball.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/8Ball.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -70,8 +64,8 @@
       <file leaf-file-name="StyleSheet.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StyleSheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="60">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -80,8 +74,8 @@
       <file leaf-file-name="StyleSheet2.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StyleSheet2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="225">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -113,11 +107,12 @@
         <option value="$PROJECT_DIR$/StyleShet2.css" />
         <option value="$PROJECT_DIR$/Style 2.html" />
         <option value="$PROJECT_DIR$/Style 3.html" />
+        <option value="$PROJECT_DIR$/Style 1.html" />
         <option value="$PROJECT_DIR$/StyleSheet.css" />
         <option value="$PROJECT_DIR$/Main.html" />
-        <option value="$PROJECT_DIR$/Style 1.html" />
-        <option value="$PROJECT_DIR$/Script.js" />
         <option value="$PROJECT_DIR$/StyleSheet2.css" />
+        <option value="$PROJECT_DIR$/Script.js" />
+        <option value="$PROJECT_DIR$/8Ball.html" />
       </list>
     </option>
   </component>
@@ -128,7 +123,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="496" />
+    <option name="x" value="505" />
     <option name="y" value="23" />
     <option name="width" value="936" />
     <option name="height" value="821" />
@@ -200,7 +195,7 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Anthony_Harris_Project3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ch13/Anthony_Harris_Simulator" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -214,7 +209,7 @@
       <recent name="$PROJECT_DIR$/JS" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.8Ball.html">
+  <component name="RunManager">
     <configuration default="false" name="8Ball.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Final-Project/8Ball.html">
       <method />
     </configuration>
@@ -305,15 +300,15 @@
       <workItem from="1479785171404" duration="31000" />
       <workItem from="1480374914610" duration="6283000" />
       <workItem from="1480381852902" duration="323000" />
-      <workItem from="1480964890030" duration="6045000" />
+      <workItem from="1480964890030" duration="10727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23923000" />
+    <option name="totallyTimeSpent" value="28605000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="496" y="23" width="936" height="821" extended-state="0" />
+    <frame x="505" y="23" width="936" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21153846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -365,21 +360,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -727,14 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StyleSheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Ch2/CSS Assignment/Styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -743,10 +720,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/StyleSheet2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StyleSheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="967" column="0" selection-start-line="967" selection-start-column="0" selection-end-line="967" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        <state relative-caret-position="15">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
           </folding>
@@ -756,23 +757,15 @@
     <entry file="file://$PROJECT_DIR$/Main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StyleSheet2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/8Ball.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
         </state>
       </provider>

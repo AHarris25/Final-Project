@@ -1,6 +1,10 @@
 /**
  * Created by TonyHarris on 10/27/16.
  */
+ // If I create a var and a const here for the local storage it breaks my code.
+    // Local storage is supposed to save name if they have
+    // been to my page before and automatically display it and if
+    // they are a first time user i wanted to have the alert pop up asking for their name.
 var answers = ['Maybe.','Not in your wildest dreams.','There is a good chance.',
     'Never!','Hell, yes.','Hell no.','The future is uncertain.','Possibly.','Yes!'];
 
@@ -47,8 +51,22 @@ function EightBall(){
     else if (Answer == 'Yes!'){
         Image = 'images/Yes.png';
     }
-    $('div8BallResponse').innerHTML = Answer;
     $('div8BallImage').innerHTML = Source + Image + "/>";
+}
+
+function Close(){
+    localStorage.setItem(Name,YourName);
+    window.close();
+}
+
+function PageLoad(){
+    if (localStorage.getItem(Name) != null) {
+        YourName = localStorage.getItem(YourName);
+    }
+    else {
+        YourName = window.prompt("Please enter your name:");
+        document.write("Welcome to my Site " + YourName + "<BR>" + "Have Fun!")
+    }
 }
 
 function Amazon(){
