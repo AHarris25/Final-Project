@@ -1,10 +1,6 @@
 /**
  * Created by TonyHarris on 10/27/16.
  */
- // If I create a var and a const here for the local storage it breaks my code.
-    // Local storage is supposed to save name if they have
-    // been to my page before and automatically display it and if
-    // they are a first time user i wanted to have the alert pop up asking for their name.
 var answers = ['Maybe.','Not in your wildest dreams.','There is a good chance.',
     'Never!','Hell, yes.','Hell no.','The future is uncertain.','Possibly.','Yes!'];
 
@@ -55,10 +51,10 @@ function EightBall(){
 }
 
 function Close(){
-    localStorage.setItem(Name,YourName);
+
     window.close();
 }
-
+// This is where i intended to use local storage
 function PageLoad(){
     if (localStorage.getItem(Name) != null) {
         YourName = localStorage.getItem(YourName);
